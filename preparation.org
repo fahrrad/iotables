@@ -1,0 +1,38 @@
+* Electrons
+** Desparate small things trying to get to the positive side.
+** How desperate = tension (Volt)
+** How many travelling at the same time: current (A)
+* First compoment: LED
+** Kind of 1-direction border control .
+** While letting electrons through, emits light
+** Burn led 
+*** Oh noooo! I broke the green build! What can I do? Revert my commit? 
+*** The first BIG difference between Hard- and Software: TOASTED IS TOASTED! No mather how many times I turn it on off and on again, this LED is gone to meet its maker. 
+No crt-alt-delete for me to press.
+*** ok, time for a post morten: to many, to eager to cross:  The short, but bright life of this led is over. It's an EX-led! 
+*** A LED with a burnout is not likely to recover any time soon. The smoke test failed!
+* Second component: Resistor.
+** Allows flow in 2 directions, but limits the amount of electrons that get throught at any given time
+** Come in different 'sizes' 
+** Allow us to limit the current at any given moment.
+** Setup with resistor: Steady, stable long life. 
+* Breadboard:
+*** Rows and 2 columns/
+*** Try to replicate the led circuit on breadboard
+*** Add switch
+* Third component: Transistor
+** Ok, at this point analogies will only create confusio
+*** A transistor has 3 pins: Collector, base and Emitter. 
+*** For our purpose, let's assume the transistor is a switch. When there is some tension between base and collector, it opens.
+try to setup circuit where finger can trigger the power.
+
+* Component 4: The microcontroller
+** So, here i where the IoT comes in.
+In the service of time, we did all the programming of the chip already for you.
+I has the password for TW guest, and on boot will connect to it. After that,
+after that, it connects to a webservice that can be used to send and receive messages. 
+
+Lets add power to the chip: ( distribute the pinout 
+
+Lets try that 
+(show mqtt screen) 
