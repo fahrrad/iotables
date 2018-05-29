@@ -6,7 +6,7 @@ gpio.write(4, gpio.LOW)
 gpio.write(3, gpio.LOW)
 
 topic = "table3"
-m = mqtt.Client(topic, 120, "rgvtpvvg", "p1CTGZHxybZf")
+m = mqtt.Client(topic, 120, "username", "password")
 
 
 
