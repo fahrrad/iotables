@@ -25,11 +25,11 @@ esptool.py.exe --port COM3 write_flash -fm qio 0x00000 <file.bin>
  ** eg minicom --device tty.wchusbserial1410
 
 * Links
-nodemcu-uploader : https://github.com/kmpm/nodemcu-uploader/blob/master/doc/USAGE.md
-AT command reference: http://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/
-transistor datasheet: http://www.st.com/resource/en/datasheet/cd00000546.pdf
-lua in 15 minutes: http://tylerneylon.com/a/learn-lua/
-nodemcu docs: https://nodemcu.readthedocs.io/en/master/en/hardware-faq/
-nodemcu flash : http://nodemcu.readthedocs.io/en/master/en/flash/
-esp8266 connect to arduino: https://forum.arduino.cc/index.php?topic=283043.0
+ - [nodemcu-uploader](https://github.com/kmpm/nodemcu-uploader/blob/master/doc/USAGE.md)
+ - AT command reference: http://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/
+ - transistor datasheet: http://www.st.com/resource/en/datasheet/cd00000546.pdf
+ - lua in 15 minutes: http://tylerneylon.com/a/learn-lua/
+ - nodemcu docs: https://nodemcu.readthedocs.io/en/master/en/hardware-faq/
+ - nodemcu flash : http://nodemcu.readthedocs.io/en/master/en/flash/
+ - esp8266 connect to arduino: https://forum.arduino.cc/index.php?topic=283043.0
 
